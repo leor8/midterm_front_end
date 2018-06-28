@@ -1,0 +1,29 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*      <div class="form-group">
+        <textarea class="form-control" rows="1" id="comment" placeholder="Your new todo"></textarea>
+        <input type="submit" value="Add" class="btn btn-info">
+      </div>*/
+
+/*      <nav id="nav_bar">
+      <h1 id="nav_header">Dummie Name</h1>
+      <div class="user_authentication">
+        <button type="button" class="btn btn-success">Log in</button>
+        <button type="button" class="btn btn-success">Register
+        </button>
+        <button type="button" class="btn btn-success">Add TODO
+        </button>
+      </div>
+    </nav>*/
+
+    /*https://codepen.io/devotiongeo/pen/xiphD?editors=0010*/

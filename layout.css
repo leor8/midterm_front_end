@@ -1,0 +1,140 @@
+main.container{
+  width: 100%;
+  padding: 0;
+}
+
+#nav_bar{
+  display: flex;
+  text-align: left;
+  background: rgba(23, 23, 23, 0.2);
+  position: fixed;
+  width: 100%;
+  height: 6em;
+}
+
+#logo{
+  flex: 1;
+}
+
+#nav_bar a {
+  flex: 0.2;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 2em 1em 3em;
+}
+div.dropdown {
+  margin-right: 3em;
+  padding: 2em 1em 3em;
+}
+
+ul.dropdown-menu {
+  top: 97%;
+  background-color: rgb(200, 200, 200, 0.8);
+}
+
+#nav_bar a:hover {
+  text-decoration: underline;
+}
+
+.active{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#movies_image {
+  background-image: url("documents/movie.png");
+  min-height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6em;
+}
+
+#products_image {
+  background-image: url("documents/product.png");
+  min-height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6em;
+}
+
+#books_image {
+  background-image: url("documents/book.png");
+  min-height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6em;
+}
+
+#food_image {
+  background-image: url("documents/food.png");
+  min-height: 400px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6em;
+}
+
+h2.image_text{
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+}
+
+div.movies{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 999px;
+}
+
+div.card{
+  margin: 1em 0em 1em 2em;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  height: 35em;
+  width: 250px;
+}
+
+img.card-img-top{
+  width:100%;
+}
+
+ul.list-group-flush{
+  text-align: left;
+}
+
+button.btn-info{
+  margin-top: 12em;
+  width: 6em;
+}
+
+button.btn-danger{
+  margin-top: 12em;
+  width: 6em;
+}
+
+footer {
+  height: 10em;
+  background-color: black;
+}
+
+
+
+
+
